@@ -1,0 +1,248 @@
+.cinema-body
+{
+    background: url(../imag/fondo.jpg) no-repeat center center fixed;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 0;
+}
+
+.logo-img
+{
+    width: 100px;
+    height: 50px;
+    align-content: center;
+    margin-bottom: 0;
+    margin-top: 5px;
+}
+
+ .navbar
+{
+    background-color: rgba(157, 241, 255, 0.4);
+    /* background-color:#3E4551; */
+    min-height: 10%;
+    border-radius: 0;
+    border: 0;
+    box-shadow: 1px 1px 2px black;
+    /* opacity: 80%; */
+}
+
+.container
+{
+    margin-top: 64px;
+}
+
+.jumbotron
+{
+    background: url(../imag/cine.jpg) no-repeat;
+    background-size: 100% 100%;
+    background-color: rgba(99, 149, 163, 08);
+    min-height: 500px;
+    margin-bottom: 0px;
+}
+.titulo-cartelera
+{
+    min-height: 45px;
+    background-color: rgba(75, 231, 184, 0.658);
+    padding: 0;
+}
+
+.movies-row
+{
+    background-color: rgba(120, 192, 212, 0.342);
+    min-height: 350px;
+    padding: 0 15px 0 15px;
+    margin: 0;
+}
+
+.movies-column
+{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: rgba(126, 172, 153, 0.514);
+    min-height: 330px;
+    border: dashed 1px white;
+    text-align: center;
+}
+
+@media (max-width: 770px)
+{
+    .right-column
+    {
+        display: none;
+    }
+
+    .movies-row
+    {
+        min-height: 250px;
+    }
+
+    .movies-column
+    {
+        min-height: 230px;
+    }
+
+    .jumbotron
+    {
+        min-height: 350px;
+    }
+
+    h2
+    {
+        font-size: 22px;
+    }
+
+    .titulo-cartelera
+    {
+        font-size: 15px;
+    }
+
+    .jumbotron-img
+    {
+        margin-top: 20px;
+    }
+
+}
+
+.left-column
+{
+    border-right: 1px dashed black;
+} 
+
+.welcome-title
+{
+    color: white;
+    margin-left: 10px;
+    text-transform: uppercase;
+    font-size: 55px;
+    text-shadow: 2.5px 2.4px 1.0px black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+/* h2
+{
+    text-transform: uppercase;
+} */
+
+/* para no agregar codigo de text centen en html
+lo agreco como clase  */
+.center
+{
+    text-align: center;
+}
+
+.jumbotron-img
+{
+    margin-top: 20px;
+    width: 250px;
+    height: 150px;
+    /* display: block; */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.jumbotron-text
+{
+    color: white;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.redes-sociales
+{
+    margin-top: 20px;
+    /* float: none;
+    display: block;
+     margin-left: auto;
+    margin-right: auto;
+     */
+}
+
+.img-social
+{
+    width: 40px;
+    height: 40px;
+  
+}
+
+.titulo-text
+{
+    font-size: 18px;
+    font-weight: bolder;
+    color: white;
+    padding: 10px;
+    text-transform: capitalize;
+    text-shadow: 2.5px 2.4px 1.0px black;   
+}
+
+.movie-title
+{
+    color: white;
+    font-size: 14px;
+    text-transform: capitalize;
+}
+
+.img-movies
+{
+    height: 260px;
+    padding: 6px;
+    margin-top: 22px;
+    border-radius: 5%;
+    box-shadow: -5px -9px 9px 2px black;
+    
+}
+
+.services-text
+{
+    color: white;
+    font-size: 16px;
+    margin-top: 10px;
+    text-align: justify;
+    padding: 20px;
+    text-transform: initial;
+    text-shadow: 2px 2px 2px  black;
+}
+
+.dl-horizontal
+{
+    margin-top: 30px;
+}
+
+.user-data
+{
+    margin-top: 5px;
+    font-size: 16px;
+    color: blanchedalmond;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.input-element
+{
+    width: 100%;
+    height: 28px;
+    padding: 10px;
+    background-color: rgba(235, 250, 248, 0.651);
+    border-radius: 4px;
+    border: 0;
+    margin-top: 1px;
+    color: white
+}
+
+.input-element::placeholder
+{
+    color: rgba(37, 40, 41, 0.747);
+}
+
+.label-class
+{
+    color: white;
+    font-size: 13px;
+    margin-left: 20px;
+}
+
+.btn-save
+{
+    width: 40%;
+    background: rgba(126, 172, 153, 0.514);
+    align-content: center;
+}
